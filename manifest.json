@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Super simple adblocker",
+  "description": "Un simple bloqueur de publicité pour chrome",
+  "version": "0.1",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "web_accessible_resources": ["vide.html"],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*/*"
+  ]
+}
