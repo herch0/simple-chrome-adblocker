@@ -10,7 +10,7 @@
   "background": {
     "scripts": ["background.js"]
   },
-  "web_accessible_resources": ["vide.html"],
+  "web_accessible_resources": ["vide.html", "vide.png", "vide.js"],
   "permissions": [
     "webRequest",
     "webRequestBlocking",
